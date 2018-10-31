@@ -1,0 +1,126 @@
+body {
+    margin: 0 auto;
+}
+.nav-bar {
+    background-color: #f589b8;
+    height: 10%;
+    width: 100%;
+    z-index: 1;
+    position: fixed;
+}
+.logo {
+    height: 70px;
+    width: 70px;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+.nav-list {
+    float: right;
+}
+.list-item {
+    height:40px;
+    width: 50px;
+    list-style-type: none;
+    display: inline-block;
+    margin-right :25px;
+    margin-top: 14px;
+    border-radius: 20px;
+    text-align: center;
+    padding:15px;
+}
+.list-item a {
+    text-decoration: none;
+    color: yellow;
+    padding: 5px;
+}
+.list-item:hover {
+    background-color: white;
+}
+.list-item:hover a {
+    color: black;
+}
+.banner {
+    background-image: url('../img/hellokitty.png');
+    height: 500px;
+    width: 100%;
+    position: relative;
+    background-size: cover;
+    background-repeat: no-repeat;
+    top: 20px;
+    padding: 2px;
+}
+.banner-text{
+    display: inline-block;
+    margin-top: 300px;
+    margin-left: 40%;
+    text-align: center;
+    line-height: normal;
+    letter-spacing: 5px;
+    color: blue;
+    border: 3px solid yellow;
+    box-shadow: 10px 10px white;
+    border-radius: 12%;
+}
+.content {
+    position: relative;
+    padding: 10px;
+    margin: 10px;
+    z-index: -1 ;
+}
+.column {
+    height: 600px;
+    width: 46%;
+    border: 3px solid green;
+    position: absolute;
+    margin: 20px;
+}
+.col-2 {
+    right: 0;
+}
+.col-2 p {
+        text-align: center;
+        padding: 50px;
+}
+.col-img {
+    display: block;
+    width: 50%;
+    margin-left: auto;
+    margin-right:auto;
+    margin-top: 20%;
+}
+.footer {
+    height: 100px;
+    width: 100%;
+    background-color: #f589b8;
+    clear: both;
+    position:relative;
+    margin-bottom: 0;
+    
+}
+.footer-col {
+    width: 30%;
+    display: inline-block;
+    text-align: center;
+    line-height: 70px;
+}
+.input {
+    border-radius:10px;
+}
+.fa-facebook-square{
+    color:#000099; /* dark blue */
+}
+
+.fa-instagram{
+    color:#ff0000; /* red */
+}
+
+.fa-twitter-square{
+    color:#0099ff; /* light blue */
+}
+
+.fa-snapchat-square{
+    color:#ffff33; /* yellow */
+}
+.copyright{
+    color:#4dff4d; /* bright green */
+}
