@@ -2,7 +2,7 @@ body {
     margin: 0 auto;
 }
 .nav-bar {
-    background-color: #f589b8;
+    background-color: purple; /* #f589b7*/
     height: 10%;
     width: 100%;
     z-index: 1;
@@ -37,7 +37,7 @@ body {
     background-color: white;
 }
 .list-item:hover a {
-    color: black;
+    color: green;
 }
 .banner {
     background-image: url('../img/hellokitty.png');
